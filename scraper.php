@@ -19,6 +19,8 @@
 // // An arbitrary query against the database
 // scraperwiki::select("* from data where 'name'='peter'")
 
+scraperwiki::save_sqlite(array("name"), array("name" => "susan", "occupation" => "software developer");
+
 // You don't have to do things with the ScraperWiki library.
 // You can use whatever libraries you want: https://morph.io/documentation/php
 // All that matters is that your final data is written to an SQLite database
